@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --color-brand-bg: #000000;
+  --color-brand-accent: #FFD700;
+  --color-brand-text: #FFFFFF;
+  --color-brand-line: #333333;
+}
+
+@layer base {
+  body {
+    @apply bg-brand-bg text-brand-text font-sans;
+  }
+}
