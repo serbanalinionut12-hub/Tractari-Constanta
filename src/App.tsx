@@ -237,12 +237,16 @@ export default function App() {
             </div>
             
             <div className="relative">
-              <div className="aspect-[4/5] bg-brand-line overflow-hidden grayscale contrast-125">
+              <div className="aspect-[4/5] bg-gray-900 overflow-hidden rounded-xl border border-brand-line">
                 <img 
-                  src="https://i.imgur.com/4J5xYSX.jpeg" 
-                  alt="Recovery vehicle" 
-                  className="w-full h-full object-cover mix-blend-overlay"
+                  src="https://i.imgur.com/4J5xYSX.jpg" 
+                  alt="Tractări Auto Constanța" 
+                  className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"
+                  onError={(e) => {
+                    // Fallback în caz că Imgur e blocat
+                    (e.target as HTMLImageElement).src = "https://images.unsplash.com/photo-1620914923010-8656f74a008c?auto=format&fit=crop&q=80&w=1000";
+                  }}
                 />
               </div>
               <div className="absolute top-0 right-0 p-8">
