@@ -97,7 +97,7 @@ export default function App() {
       <nav className={`fixed w-full z-50 transition-all duration-300 border-b ${scrolled ? "bg-black/90 backdrop-blur-md border-brand-line py-4" : "bg-transparent border-transparent py-8"}`}>
         <div className="container mx-auto px-6 flex justify-between items-center">
           <div className="flex items-center gap-4">
-            <span className="font-black text-xs tracking-[0.3em] uppercase text-brand-accent">TRACTĂRI CT.PRO</span>
+            <span className="font-black text-xs tracking-[0.3em] uppercase text-brand-accent">TractariConstanta.ro</span>
           </div>
 
           <div className="hidden md:flex items-center gap-12">
@@ -223,7 +223,7 @@ export default function App() {
           <div className="grid md:grid-cols-2 gap-24 items-center">
             <div>
               <h2 className="text-5xl md:text-7xl font-black uppercase tracking-tight mb-12 leading-[0.9]">
-                PROFESIONISM<br />
+                PROFESIONALISM<br />
                 <span className="text-brand-accent">FĂRĂ COMPROMIS.</span>
               </h2>
               <div className="grid grid-cols-2 gap-x-8 gap-y-12">
@@ -239,7 +239,7 @@ export default function App() {
             <div className="relative">
               <div className="aspect-[4/5] bg-brand-line overflow-hidden grayscale contrast-125">
                 <img 
-                  src="https://cdn.discordapp.com/attachments/952908160665006120/1494350997601124372/WhatsApp_Image_2026-04-16_at_17.52.04.jpeg?ex=69e24a51&is=69e0f8d1&hm=c4ee2daba8474515786144b5b8e63824c8e66d04bfbbf0c411945a05068030f1&" 
+                  src="https://i.imgur.com/4J5xYSX.jpeg" 
                   alt="Recovery vehicle" 
                   className="w-full h-full object-cover mix-blend-overlay"
                   referrerPolicy="no-referrer"
